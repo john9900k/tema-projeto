@@ -1,3 +1,52 @@
+/*
+
+Irei utilizar um layout fluid para dar melhor responsividade ao site.
+
+
+3da5d9
+ea7317
+
+*/
+
+body {
+    font: normal 1.1em Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #181818;
+
+}
+
+#main {
+    float: left;
+    width: 60%;
+    margin: 0 5%;
+}
+
+#col2 {
+    float: left;
+    width: 25%;
+    margin: 0 5% 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 table {
     width: 600px;
     border-collapse: collapse;
