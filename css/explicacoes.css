@@ -1,7 +1,14 @@
+:root {
+    --azul: #3DA5D9;
+    --font: #bbbbbb;
+    --background: #181818;
+    --laranja: #EA7317;
+}
+
 body {
     font: normal 1.1em Arial, Helvetica, sans-serif;
-    color: rgb(187, 187, 187);
-    background-color: #181818;
+    color: var(--font);
+    background-color: var(--background);
 }
 
 h1, p {
@@ -21,10 +28,10 @@ img {
 }
 
 a {
-    color: #3DA5D9;
+    color: var(--azul);
     text-decoration: none;
 }
 
 a:active {
-    color: #EA7317;
+    color: var(--laranja);
 }

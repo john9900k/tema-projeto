@@ -1,5 +1,5 @@
 /*
-Irei utilizar um layout fluid para dar melhor responsividade ao site.
+Irei utilizar um layout fluid para dar melhor responsividade ao site, embora em celulares ainda não fique bom.
 
 3DA5D9
 EA7317
@@ -9,10 +9,17 @@ EA7317
 
 @import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
 
+:root {
+    --azul: #3DA5D9;
+    --font: #bbbbbb;
+    --background: #181818;
+    --laranja: #EA7317;
+}
+
 body {
     font: normal 1.1em Arial, Helvetica, sans-serif;
-    color: rgb(187, 187, 187);
-    background-color: #181818;
+    color: var(--font);
+    background-color: var(--background);
 }
 
 #main {
@@ -25,7 +32,7 @@ body {
     float: left;
     width: 33%;
     margin: 0 2% 0 0;
-    visibility: small;
+
 }
 
 #games {
@@ -33,12 +40,12 @@ body {
 }
 
 a {
-    color: #3DA5D9;
+    color: var(--azul);
     text-decoration: none;
 }
 
 a:active {
-    color: #EA7317;
+    color: var(--laranja);
 }
 
 table {
