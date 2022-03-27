@@ -6,13 +6,13 @@ Irei utilizar um layout fluid para dar melhor responsividade ao site.
 3da5d9
 ea7317
 
+#185ADA
 */
 
 body {
     font: normal 1.1em Arial, Helvetica, sans-serif;
     color: white;
     background-color: #181818;
-
 }
 
 .main {
@@ -25,6 +25,10 @@ body {
     float: left;
     width: 33%;
     margin: 0 2% 0 0;
+}
+
+.a {
+    color: ;#185ADA
 }
 
 
