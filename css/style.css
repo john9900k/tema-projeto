@@ -17,6 +17,16 @@ body {
     background-color: var(--background);
 }
 
+::-moz-selection { /* Code for Firefox */
+    color: red;
+    background: yellow;
+}
+  
+::selection {
+    color: red;
+    background: yellow;
+  }
+
 #main {
     float: left;
     width: 60%;
