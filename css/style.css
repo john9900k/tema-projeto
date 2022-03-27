@@ -18,13 +18,13 @@ body {
 }
 
 ::-moz-selection { /* Code for Firefox */
-    color: red;
-    background: yellow;
+    color: #000;
+    background: #FFF;
 }
   
 ::selection {
-    color: red;
-    background: yellow;
+    color: #000;
+    background: #FFF;
   }
 
 #main {
@@ -67,4 +67,10 @@ th, td {
 
 .tabela {
     overflow-x: auto;
+}
+
+caption {
+    color: white;
+    background-color: #000;
+    
 }
