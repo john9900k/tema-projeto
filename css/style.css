@@ -11,17 +11,17 @@ EA7317
 
 body {
     font: normal 1.1em Arial, Helvetica, sans-serif;
-    color: white;
+    color: rgb(187, 187, 187);
     background-color: #181818;
 }
 
-.main {
+#main {
     float: left;
     width: 60%;
     margin: 0 3% 0 2%;
 }
 
-.col2 {
+#col2 {
     float: left;
     width: 33%;
     margin: 0 2% 0 0;
@@ -39,15 +39,6 @@ a {
 a:active {
     color: #EA7317;
 }
-
-
-
-
-
-
-
-
-
 
 table {
     width: 600px;
