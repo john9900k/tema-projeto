@@ -38,6 +38,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 a:active {
     color: var(--laranja);
 }
