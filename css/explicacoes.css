@@ -1,6 +1,17 @@
 body {
     font: normal 1.1em Arial, Helvetica, sans-serif;
-    color: white;
+    color: #FFF;
     background-color: #181818;
 }
 
+h1, p {
+    max-width: 600px;
+    margin: auto;    
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
