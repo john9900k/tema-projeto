@@ -1,0 +1,102 @@
+/*
+Irei utilizar um layout híbrido, sendo a maior parte composto pelo layout fluid, para dar melhor responsividade ao site (embora em celulares ainda não fique bom), e as tabelas, com medidas fixas.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+
+:root {
+    --azul: #3DA5D9;
+    --font: #bbbbbb;
+    --title: #dddddd;
+    --background: #181818;
+    --laranja: #EA7317;
+}
+
+body {
+    font: normal 1.1em Arial, Helvetica, sans-serif;
+    color: var(--font);
+    background-color: var(--background);
+}
+
+h1, h2, h3 {
+    font-family: 'Bitter', serif;
+    color: var(--title);
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #000;
+    background: #FFF;
+}
+  
+::selection {
+    color: #000;
+    background: #FFF;
+  }
+
+#main {
+    float: left;
+    width: 60%;
+    margin: 0 3% 0 2%;
+}
+
+#col2 {
+    float: left;
+    width: 33%;
+    margin: 0 2% 0 0;
+}
+
+#games {
+    font-family: 'Mali', 'Cursive';
+    padding: 10px 10px 10px 10px;
+}
+
+a {
+    color: var(--azul);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: var(--laranja);
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+th, td, caption {
+    border: 1px solid var(--font);
+    padding: 5px 10px;
+}
+
+.tabela {
+    overflow-x: auto;
+}
+
+#OBS {
+    font-size: 0.8em;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 5px;
+}

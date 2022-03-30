@@ -6,82 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tema projeto</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <style>            
-        table {
-            width: 600px;
-            border-collapse: collapse;
-        }
-
-        th, td {
-            border: 1px solid black;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Games</h1>
-    <h2>Objetivo</h2>
-    <p>O objetivo é fazer um site que possua jogos simples dentro dele. Jogos simples como o jogo da cobrinha, jogo da velha, xadrez etc.</p>
-    <p>A ideia é que haja diversos jogos do tipo reunidos no mesmo lugar</p>
-    <h2>Lista de jogos</h2>
-    <p>Por enquanto, esses são os jogos a ser adicionados no site:</p>
-    <ul>
-        <li><a href="explicacoes/jogodavelha.html" target="_self" rel="next">Jogo da velha</a></li>
-        <li><a href="explicacoes/cobrinha.html" target="_self" rel="next">Jogo da cobrinha</a></li>
-        <li><a href="explicacoes/xadrex.html" target="_self" rel="next">Xadrez</a></li>
-        <li><a href="explicacoes/flappybird.html" target="_self" rel="next">Flappy Bird</a></li>
-        <li><a href="explicacoes/pacman.html" target="_self" rel="next">PacMan</a></li>
-    </ul>
-    <p>OBS: você pode clicar em cada um para obter informações</p>
-    <h2>Aspectos técnicos</h2>
-    <h3>Funcionamento dos jogos</h3>
-    <p>O objetivo é fazer o funcionamento dos jogos direto no navegador (já que é um site). Para isso, devo utilizar JavaScript para a realização das açõs dos jogos. Ou seja, a programação deve ser feita em JavaScript.</p>
-    <p>Por razões como essa, o objetivo se limita a jogos simples, que possam ser feitos utilizando unicamente JavaScript.</p>
-    <h3>Pontuações</h3>
-    <p>Tenho o objetivo de registrar pontuações utilizando algum banco de dados e assim conseguir montar um ranking de melhores jogadores. <br>
-    Para tal, o site deve possuir um sistema de login, sendo assim possível associar a pontuação a algum usuário.</p>
-    <h2>Prazos</h2>
-    <p>Eu não tenho certeza de quanto tempo demoraria para fazer nem das datas, então farei apenas uma estimativa com datas não reais.</p>
-    <table>
-        <caption>Prazos de duração do projeto</caption>
-        <thead>
-            <tr>
-                <th scope="col">O que será feito</th>
-                <th scope="col">Tempo de duração</th>
-                <th scope="col">Data de início</th>
-                <th scope="col">Data de término</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>HTML</td>
-                <td>1 semana</td>
-                <td>01/04/2022</td>
-                <td>07/04/2022</td>
-            </tr>
-            <tr>
-                <td>CSS</td>
-                <td>2 semanas</td>
-                <td>08/04/2022</td>
-                <td>22/04/2022</td>
-            </tr>
-            <tr>
-                <td>JavaScript</td>
-                <td>3 semanas</td>
-                <td>23/05/2022</td>
-                <td>14/05/2022</td>
-            </tr>
-            <tr>
-                <td>Banco de dados</td>
-                <td>2 semanas</td>
-                <td>15/05/2022</td>
-                <td>29/05/2022</td>
-            </tr>
-            <tr>
-                <td>Conexão banco de dados</td>
-                <td>2 semanas</td>
-                <td>01/06/2022</td>
-                <td>15/06/2022</td>
-            </tr>
-    </table>
+        <h1 id="games">Games</h1>
+        <nav>
+            <ul>
+                <li><a href="parte-tecnica/prazos.html" target="_self" rel="next">prazos</a></li>
+                <li><a href="parte-tecnica/design.html">decisões de design</a></li>
+                <li><a href="parte-tecnica/validacao.html" target="_self" rel="next">validação das páginas</a></li>
+            </ul>
+        </nav>
+        <div id="main">
+        <article>
+            <section>
+                <h2>Objetivo</h2>
+                <p>O objetivo é fazer um site que possua jogos simples dentro dele. Jogos simples como o jogo da cobrinha, jogo da velha, xadrez etc.</p>
+                <p>A ideia é que haja diversos jogos do tipo reunidos no mesmo lugar.</p>
+            </section>
+        </article>
+
+        <article>
+            <h2>Aspectos técnicos</h2>
+            <section>
+                <h3>Funcionamento dos jogos</h3>
+                <p>O objetivo é fazer o funcionamento dos jogos direto no navegador (já que é um site). Para isso, devo utilizar JavaScript para a realização das açõs dos jogos. Ou seja, a programação deve ser feita em JavaScript.</p>
+                <p>Por razões como essa, o objetivo se limita a jogos simples, que possam ser feitos utilizando unicamente JavaScript.</p>
+            </section>
+            <section>
+                <h3>Pontuações</h3>
+                <p>Tenho o objetivo de registrar pontuações utilizando algum banco de dados e assim conseguir montar um ranking de melhores jogadores. <br>
+                Para tal, o site deve possuir um sistema de login, sendo assim possível associar a pontuação a algum usuário.</p>
+            </section>
+        </article>
+    </div>
+
+    <div id="col2">
+        <aside>
+            <section>
+                <h2>Lista de jogos</h2>
+                <p>Por enquanto, esses são os jogos a ser adicionados no site:</p>
+                <ul>
+                    <li><a href="explicacoes/jogodavelha.html" target="_self" rel="next">Jogo da velha</a></li>
+                    <li><a href="explicacoes/cobrinha.html" target="_self" rel="next">Jogo da cobrinha</a></li>
+                    <li><a href="explicacoes/xadrex.html" target="_self" rel="next">Xadrez</a></li>
+                    <li><a href="explicacoes/flappybird.html" target="_self" rel="next">Flappy Bird</a></li>
+                    <li><a href="explicacoes/pacman.html" target="_self" rel="next">PacMan</a></li>
+                </ul>
+                <p id="OBS">OBS: você pode clicar em cada um para obter informações</p>
+            </section>
+        </aside>
+    </div>
 </body>
 </html>
