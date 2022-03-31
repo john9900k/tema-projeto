@@ -5,11 +5,9 @@ h1, p {
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 #back {
     width: 3em;
-    text-align: center;
 }

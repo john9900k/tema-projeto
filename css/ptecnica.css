@@ -7,7 +7,15 @@ body {
     max-width: 960px;
 }
 
+img {
+    display: block;
+    margin: auto;
+}
+
 #back {
     width: 3em;
-    text-align: center;
+}
+
+table {
+    margin-bottom: 10px;
 }
